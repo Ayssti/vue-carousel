@@ -863,15 +863,18 @@ export default {
 <style>
 .VueCarousel {
   position: relative;
+  height: 100%;
 }
 
 .VueCarousel-wrapper {
   width: 100%;
+  height: 100%;
   position: relative;
   overflow: hidden;
 }
 
 .VueCarousel-inner {
+  height: 100%;
   display: flex;
   flex-direction: row;
   backface-visibility: hidden;

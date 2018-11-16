@@ -18,7 +18,7 @@
           'webkit-flex-basis': `${slideWidth}px`,
           'flex-basis': `${slideWidth}px`,
           'visibility': slideWidth ? 'visible' : 'hidden',
-          'height': `${currentHeight}`,
+          'height': '100%',
           'padding-left': `${padding}px`,
           'padding-right': `${padding}px`
         }"

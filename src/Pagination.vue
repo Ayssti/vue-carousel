@@ -41,7 +41,9 @@ export default {
     paginationCount() {
       return this.carousel && this.carousel.scrollPerPage
         ? this.carousel.pageCount
-        : this.carousel.slideCount ? this.carousel.slideCount - 2 : 0;
+        : this.carousel.slideCount
+          ? this.carousel.slideCount - 2
+          : 0;
     }
   },
   methods: {

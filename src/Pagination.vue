@@ -41,9 +41,7 @@ export default {
     paginationCount() {
       return this.carousel && this.carousel.scrollPerPage
         ? this.carousel.pageCount
-        : this.carousel.slideCount
-          ? this.carousel.slideCount - 2
-          : 0;
+        : this.carousel.slideCount ? this.carousel.slideCount - 2 : 0;
     }
   },
   methods: {
@@ -76,6 +74,8 @@ export default {
 .VueCarousel-pagination {
   width: 100%;
   text-align: center;
+  position: absolute;
+  bottom: 0;
 }
 
 .VueCarousel-dot-container {
